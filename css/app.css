@@ -1,0 +1,14 @@
+.favoritos{
+  height: 100px;
+}
+body{
+  background-image: url("../img/fondococina.jpg");
+}
+.img-principal{
+  width: 80%;
+  height: 400px;
+}
+.grid-container{
+  background-image: url("../img/fondococina.jpg");
+  filter:brightness(0.4);
+}

@@ -1,0 +1,28 @@
+.logo-img{
+  width: 100px;
+}
+
+.img-social{
+  margin-top: 50px;
+  width: 30px;
+  float: right;
+}
+.navegacion{
+  height: 9%;
+}
+.img-artistas{
+  width: 100%;
+}
+body{
+  background-color: #652348;
+}
+.container{
+  background-color: #ECE4DB;
+}
+
+
+@media (max-width: 770px){
+  .rigth-column{
+    display: none;
+  }
+}
