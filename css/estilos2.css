@@ -1,0 +1,24 @@
+.encabezado {
+  height: 8em;
+  margin: 0;
+  padding: 0;
+}
+
+.img-principal {
+  float: left;
+  margin-top: 20px;
+  margin-right: 10px;
+  width: 30%;
+}
+
+@media screen and (max-width: 770px){
+  .img-principal{
+    width: 100%;
+  }
+}
+.card-panel{
+  width: 100%;
+  height: 100%;
+  background: url("../img/fondoturismo4.png") top  repeat , url("../img/fondoturismo3.png") top  no-repeat , url("../img/fondoTurismo.jpg")  top repeat;
+  background-attachment: fixed !important;
+}

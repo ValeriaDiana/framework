@@ -11,7 +11,10 @@
   height: 9%;
 }
 .img-artistas{
-  width: 100%;
+  width: 90%;
+}
+.img-comen{
+  width: 60px;
 }
 body{
   background-color: #652348;
@@ -19,10 +22,12 @@ body{
 .container{
   background-color: #ECE4DB;
 }
+.right-column{
+  display: inline-block;
+}
 
-
-@media (max-width: 770px){
-  .rigth-column{
+@media screen and (max-width: 770px){
+  .right-column{
     display: none;
   }
 }
